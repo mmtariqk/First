@@ -1,0 +1,602 @@
+body {  padding:0; margin:0; }
+
+h1, h2, h3, h4, h5, h6{ font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif; color: #3a3a3a; }
+
+h1 { font-weight: 700; font-size: 30px; margin-bottom: 20px; }
+h2 { font-weight: 700; font-size: 24px; margin: 30px 0 20px; }
+h3 { font-weight: 700; font-size: 20px; }
+
+
+p { 
+	font-size: 15px; 
+	line-height: 24px; 
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif; 
+	color: #5c5c5c;
+	margin-bottom: 20px;
+} 
+
+.col-logo a img { width: 150px; }
+
+.rfgp1 {
+  float: left;
+  padding-right: 10px;
+  width: 50%;
+}
+.rfgp2 {
+  float: left;
+  padding-left: 10px;
+  width: 50%;
+
+}
+.rfgp3{widht:100%}
+
+#error {
+  color: #FF0000;
+  font-size: 12px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.modal-dialog-download {width: 300px; }
+h3.ahx89 {
+	font-size: 19px;
+	margin: 0;
+	text-align: center;
+	color: #EE3C2E;
+}
+h3.ahx89 small {
+	color: #555555;
+	display: block;
+	font-family: arial;
+	font-size: 12px;
+	margin: 8px 0;
+}
+.error2 {color: red; text-align: center; font-size: 11px; font-family: arial}
+
+.gradient-red{
+	background: #dc1a0e; /* Old browsers */
+	background: -moz-linear-gradient(top, #dc1a0e 0%, #ed3125 50%, #dc1a0e 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dc1a0e), color-stop(50%,#ed3125), color-stop(99%,#dc1a0e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #dc1a0e 0%,#ed3125 50%,#dc1a0e 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #dc1a0e 0%,#ed3125 50%,#dc1a0e 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #dc1a0e 0%,#ed3125 50%,#dc1a0e 99%); /* IE10+ */
+	background: linear-gradient(to bottom, #dc1a0e 0%,#ed3125 50%,#dc1a0e 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dc1a0e', endColorstr='#dc1a0e',GradientType=0 ); /* IE6-9 */
+}	
+
+.bullets-communities-box { width: 100%; overflow: hidden; padding-top: 10px; }
+
+body.landing-home .container-banner { background-image: url('../img/caretaker-helping-senior-out-of-bed.jpg'); }
+body.landing-alzheimers .container-banner { background-image: url('../img/caretaker-combing-senior.jpg'); }
+body.landing-dementia .container-banner { background-image: url('../img/caretaker-serving-senior.jpg'); }
+body.landing-parkinsons .container-banner { background-image: url('../img/caretaker-helping-senior-up.jpg'); }
+body.landing-stroke .container-banner { background-image: url('../img/caregiver-walking-senior.jpg'); }
+body.landing-post-hospital .container-banner { background-image: url('../img/caretaker-laughing-with-senior.png'); }
+body.landing-cancer .container-banner { background-image: url('../img/senior-in-bed-smiling-at-caregiver.jpg'); }
+body.landing-hospice .container-banner { background-image: url('../img/senior-in-wheelchair-with-caregiver.jpg'); }
+
+.container-banner {
+	padding-top: 10px;
+	padding-bottom: 50px;
+	background-size: 46%;
+	background-repeat: no-repeat;
+	background-position: 0 bottom;
+}
+.communities  ul {
+	list-style: none outside none;
+	margin: 0 0 0 5px;
+	padding: 0;
+}
+.communities ul li {
+	margin: 0 0 0 15px;
+	padding: 3px 0;
+	list-style-position: outside;
+	list-style-image: url(../img/bullet.png);
+	font-family: 'Open Sans Condensed';
+	font-size: 17px;
+	line-height: 20px;
+}
+.communities ul li:first-child{
+	display: none;
+}
+.banner-content { float: right; padding-right: 40px; }
+.container-header { padding-top: 20px; padding-bottom: 20px }
+.questions p { font-size: 22px; font-weight: bold; color: #000; padding-top: 10px; margin-bottom: 0; }
+.questions p .have {display: block}
+.questions p .phone {color:#E52719; display: block; }
+.questions p .lighter { font-weight: normal; font-size: 17px; display: block; }
+.col-help .questions {  float: left;  width: 49%; text-align: left; }
+.col-help .request {  float: left;  width: 49%; text-align: center; padding-top: 14px;}
+.btn-red {
+  border-radius: 7px 7px 7px 7px;
+  color: #FFFFFF;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 9px 20px;    display: inline-block;
+}
+.btn-red:hover {color:#fff; text-decoration: none;}
+
+.box {
+  color: #555555;
+  float: left;
+  width: 50%;  
+  padding-right: 21px;
+  text-align: left;
+  padding-left: 65px;
+  background-repeat: no-repeat;
+  background-position: 0 6px;
+}
+
+.box-one{ background-image: url("../img/home.png"); }
+
+.box-two { background-image: url("../img/info.png"); }
+
+.box-three { background-image: url("../img/ensure.png"); }
+
+.box-four {	background-image: url("../img/deication.png"); }
+
+.box-five {	background-image: url("../img/higher.png"); }
+
+.box-six { background-image: url("../img/care.png"); }
+
+
+.box h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+ 
+.row-testimonials-heading h2{
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 27px;
+	text-align: center;
+}
+
+.testi-text {
+  background: none repeat scroll 0 0 #fff;
+  border: 1px solid #EEEEEE;
+  border-right: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  border-radius: 8px 8px 8px 8px;
+  margin-bottom: 20px;
+  padding: 12px;
+}
+
+.testi-name b {
+  display: block;
+}
+
+.container-wrapper-testimonials {
+	-webkit-box-shadow:inset 0 0 5px 1px #A3A3A3;
+	box-shadow:inset 0 0 5px 1px #A3A3A3;
+	background: url("../img/testimonial-bg.png") top center no-repeat;
+	margin: 38px 0;
+	padding: 10px 0 45px;
+	background-size: cover;
+}
+
+.col-testimonial {
+  padding: 0 30px;
+}
+
+.footer-call{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.footer-call .phone-footer{
+	color: red;
+	font-size: 25px;
+}
+.footer-call .phone-below-text {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+
+.footer-logos{
+   text-align:center
+}
+
+.copy-right{
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.container-wrapper-banner {
+	background: url("../img/bgbanner.png");    
+	border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    margin-bottom: 40px;
+}
+.col-banner .seal {
+  position: absolute;
+  right: 30px;
+  top: 0px;
+}
+.col-banner .seal img { width: 135px; }
+.col-banner .ladies {
+  float: left;
+  width: 50%;
+}
+.col-banner .headings {
+  border-bottom: 1px solid #d6c9bd;
+  padding-bottom: 7px;
+  margin-right: 175px;
+}
+.col-banner .headings h1 {
+   font: 45px 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+  color: #683f0e;
+  margin-bottom: 0;
+  line-height: 45px;
+}
+.col-banner .headings h2 {
+  font: 700 24px 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+  color: #492902;
+  margin-top: 0;
+}
+.col-banner .features { float: left; }
+.col-banner .features  ul {    
+	margin: 0;
+    padding: 16px 15px 0 0;
+}
+.col-banner .features  ul li {
+	font: 300 22px 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+	color: #272727;	
+	background: url('../img/bullet.png') no-repeat 0 13px;
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+.communities {
+  float: right;
+  padding: 0 0 0 24px;
+  border-left: 1px solid #d6c9bd;
+  margin-top: 25px;
+}
+.communities  h2 {
+  font-size: 19px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+  padding: 9px 11px 9px 25px;
+  background: #F7F2E5 url("../img/pointer.png") no-repeat 7px center;  
+  border: 1px solid #d6c9bd;
+}
+.redbullets { margin: 25px 0; padding-left: 30px; }
+.redbullets li{
+	list-style-image: url('../img/bullet.png');
+	font: 300 22px 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+}
+.downloadbutton{
+		margin-top: 12px;
+}
+.signs{
+	margin: 20px 0 0;
+	padding-bottom: 30px;
+}
+
+.signs > img {
+    display: block;
+    margin: 0 auto;
+}
+.column-right{
+	background-color: #fefcef;
+	border: 1px solid #f3f0df;
+}
+.column-right h3 { font: 700 23px/30px 'Open Sans Condensed', Arial, Helvetica, sans-serif; }
+
+.care-guide-btn a {
+	width: 329px;
+	height: 54px;
+	display: block;
+	margin: 0 auto;
+	background-image: url('../img/care-guide-button.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	font: bold 18px/54px 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+	color: #3a3a3a;
+	padding-left: 20px;
+}
+.care-guide-btn a:hover { background-position: 0 -54px; text-decoration: none; }
+
+/* =============== HOME CIRCLES ================== */
+
+.disease-circles-container { width: 100%; overflow: hidden; }
+.disease-circles-container h2 {
+	font: bold 32px/32px "Open Sans Condensed", Arial, Helvetica, sans-serif;
+	color: #3b3b3b;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.disease-circles-container h2 span {
+	font-weight: normal;
+	font-size: 24px;
+	display: block;
+	color: #828282;
+}
+.circles-box { 
+	float: left; 
+	width: 20%; 
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.circle-img {
+	display: block;
+	width: 200px;
+	height: 200px;
+	background-image: url('../img/disease-circles.jpg');
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+.circles-box .read-more-btn {
+	display: block;
+	width: 118px;
+	height: 42px;
+	margin: 0 auto;
+	text-align: center;
+	font: bold 16px/42px 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+	color: #5c5c5c;
+	background: url('../img/read-more-btn.png') no-repeat 0 0;
+	text-shadow: 0 1px #fff;
+}
+#alzheimers-circle .circle-img { background-position: 0 0; }
+#dementia-circle .circle-img { background-position: -240px 0; }
+#parkinsons-circle .circle-img { background-position: -475px 0; }
+#stroke-circle .circle-img { background-position: -708px 0; }
+#post-hospital-circle .circle-img { background-position: -943px 0; }
+
+.visit-home-link { 
+	display: block; 
+	text-align: center; 
+	font: 16px 'Open Sans', Arial, Helvetica, sans-serif; 
+	color: #cf2124;
+	text-decoration: underline;
+	margin-top: 10px;
+}
+.visit-home-link:hover { color: #cf2124; text-decoration: none; }
+
+	[data-toggle~="collapse"] {
+    	cursor: pointer;
+	}
+	.apply-for-caregiver-button{
+		font-size: 18px;
+		font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		margin: 0 0 5px 0;
+		padding: 4px 25px 9px 30px;
+		background: #F7F2E5 url(../img/caregiver-button-pointer.png) no-repeat 7px center;
+		border: 1px solid #d6c9bd;
+	}
+	.apply-for-caregiver-button span{
+		color:#3a3a3a;
+	}
+.communities ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+@media (max-width:1200px) {
+	
+	.banner-content { padding-right: 0; width: 100%; }
+	.col-banner .seal { right: 45px; }
+	.col-banner .headings { margin-right: 0; float: left; }
+	.communities { border-left: 0; }
+	.communities h2 { font-size: 16px; width: 197px; } 
+	.container-banner { background-position: 64% bottom; }
+	.container-banner { background-size: 54%; }
+	.col-banner .headings h2 { font-size: 20px; }
+	.col-banner .headings h1 { font-size: 37px; line-height: 37px; }
+	
+	.disease-circles-container h2 { font-size: 30px; line-height: 30px; }
+	
+}
+
+/* lg and lg+ */
+@media (min-width:1200px) {
+	
+}
+
+
+/* only md  */
+@media (min-width:992px) and (max-width:1199px) {
+
+	.col-help { padding-left: 0; }
+	.care-guide-btn a { 
+		width: 289px; 
+		height: 48px; 
+		background-size: cover; 
+		font-size: 15px;
+		line-height: 48px;
+	}
+	.care-guide-btn a:hover { background-position: 0 -47px; } 
+	.signs > img { max-width: 100%; }
+
+	body.landing-cancer .container-banner { background-position: 230px 0; }
+	body.landing-hospice .container-banner { background-position: 230px 0; }
+	
+}
+/* md and md+ */
+@media (min-width:992px) {
+	
+	
+	
+}
+/* upto md */
+@media (max-width:991px) {
+	.container-banner { padding-top: 0; padding-bottom: 20px; }
+	.container-banner { background-size: auto; background-position: right bottom; }
+	.container-wrapper-banner {margin-top:30px}
+	.col-banner .features, .col-banner .communities { float: none; }
+	.communities { padding-left: 0; }
+	.communities ul { padding: 0; }
+	.col-banner .features ul li { font-size: 20px; }
+	.col-banner .features ul { padding: 0 15px 0 0; }
+	.banner-content { float: none; }
+	.communities h2 { font-size: 18px; }
+	.column-right { padding-top: 1px; margin-top: 25px; }
+	.circles-box { width: 33%; }
+	.disease-circles-container h2 { font-size: 28px; line-height: 28px; }
+	#stroke-circle { margin-left: 17%; }
+	.circles-box { margin-top: 25px; }
+
+}
+
+
+/* sm */
+@media (min-width:768px) and (max-width:991px) {
+	.col-help .questions {
+	  float: none; 
+	  width: 100%;
+	}
+	.col-help .request {
+	  float: none; 
+	  width: 100%; 
+	  text-align: left;
+	  padding-top: 0px;
+	  margin-top: 10px;
+	}
+	.questions p .have {display: inline}
+	.col-banner .headings { 
+	  float: none; 
+	  width: 50%;
+	}
+	.col-banner .headings h2 {font-size:18px}
+	.col-banner .ladies img {width:100%}
+    .communities  ul {
+	  font-size: 14px;
+	  margin: 0;
+	}
+	.seal img {width:100%}
+	.col-banner .seal { right: 220px; }
+	.col-banner .seal { top: -10px }
+	.container-header { padding-top: 20px; padding-bottom: 10px; }
+	.col-logo { padding-top: 25px; }
+	.col-logo a { padding-left: 45px; }
+	.col-help { padding-left: 85px; }
+	
+	.communities h2 { width: 225px; }
+	
+	.disease-circles-container { margin-top: -30px; }
+	
+	.visit-home-link { text-align: left; }
+}
+/* sm and sm+ */ 
+@media (min-width:768px) {
+	
+}
+/* upto sm, same as xs */
+
+
+
+/* xs */
+@media (max-width:767px) {
+	.container { padding-top: 15px; }
+	.col-logo {text-align: center}
+	.col-help .questions {
+	  float: none; 
+	  width: 100%;
+	  text-align: center;
+	}
+	.col-help .request {
+	  float: none; 
+	  width: 100%; 
+	  text-align: left;
+	  padding-top: 0px;
+	  text-align: center;
+	  margin-top: 15px;
+	}
+	.container-wrapper-banner { margin-top: 5px; }
+	.box {
+	 width: 100%;
+	 float: none;
+	 overflow: hidden;
+	}
+	.testi-text {
+		margin-bottom: 0;
+		margin-top: 20px;
+	}
+	.col-banner .headings h1 { margin: 5px 0 10px 0; }
+	.col-banner .headings h2 { margin-bottom: 10px }
+	.col-banner .headings {display: block; width: 100%; text-align: center; float: none;}
+
+	.col-banner .seal {
+		left: 35%; 
+		right: 35%;
+		top: auto;
+		bottom: -80px;
+    }
+    .col-banner .features {
+		float: none;
+		width: 275px;
+		margin: 0 auto;
+	}
+	.col-banner .communities {
+	  float: none;
+	  width: 280px;
+	  margin: 20px auto 430px;
+	}
+	.communities h2 { width: 79%; }
+	.container-banner { background-position: center bottom; }
+	.box-one { margin-top: 15px; }
+	
+	.row-testimonials-heading h2 { margin-top: 10px; margin-bottom: 10px; }
+
+
+}
+@media (max-width:669px) {
+
+	.circles-box { width: 50%; }
+	#stroke-circle { margin-left: 0; }
+	#post-hospital-circle { margin-left: 25%; }
+	.redbullets { padding-left: 20px; }
+	
+}
+
+/* custom queries */
+@media (max-width:470px) {
+	.col-banner .headings h1{font-size: 28px; line-height: 30px}
+	.col-banner .headings h2 { font-size: 17px; }
+	.questions p { font-size: 18px; }
+	.questions p .lighter { font-size: 16px; }
+	
+	.care-guide-btn a { 
+		width: 289px; 
+		height: 48px; 
+		background-size: cover; 
+		font-size: 15px;
+		line-height: 48px;
+	}
+	.care-guide-btn a:hover { background-position: 0 -47px; } 
+	.circles-box { 
+		width: 100%;
+		border-bottom: 1px solid #ebebeb;
+		padding-bottom: 30px;
+		margin-top: 0;
+	}
+	#post-hospital-circle { margin-left: 0; border-bottom: 0; padding-bottom: 0; }
+	
+	.col-banner .headings h1 { margin: 5px 0; }
+	
+	.signs > img { max-width: 100%; }
+	
+	.footer-call .phone-footer { font-size: 18px; }
+}
+
+
+@media (min-width:992px) and (max-width:1200px) {
+
+.apply-for-caregiver-button {
+    font-size: 18px;
+    font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    padding: 4px 0px 9px 26px;
+    background: #F7F2E5 url(../img/caregiver-button-pointer.png) no-repeat 7px center;
+    border: 1px solid #d6c9bd;
+}
+
+}
+
